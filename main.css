@@ -1,0 +1,320 @@
+body {
+  margin: 0;
+  background-color: #1a1a1a;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  color: #cddcea;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding: 0;
+}
+
+#header {
+  height: 72px;
+  width: 100vw;
+  background-color: #131313;
+  color: #5330EB;
+  font-size: 18px;
+}
+
+#logo {
+  position: absolute;
+  font-weight: 600;
+  font-style: italic;
+  text-decoration: none;
+  line-height: 1;
+  color: #5330EB;
+  border: 3px solid #5330EB;
+  padding: 5px;
+  margin: 10px 10px 10px 20px;
+  width: 78px;
+}
+
+#header #logo:hover {
+  color: #FFFFFF;
+}
+
+#logo:visited, #logo:active {
+  color: #5330EB;
+}
+
+#navigation {
+  height: 72px;
+  width: 400px;
+  margin: 0 auto;
+  line-height: 72px;
+}
+
+#navigation ul {
+  margin: 0;
+}
+
+#navigation ul li {
+  display: inline-block;
+  margin: 0;
+}
+
+#navigation ul li#gallery-nav:hover {
+  background-color: #5330EB;
+}
+
+#navigation ul li#music-nav:hover {
+  background-color: #139fc9;
+}
+
+#navigation ul li#resume-nav:hover {
+  background-color: #e17121;
+}
+
+#navigation ul li#contact-nav:hover {
+  background-color: #cddcea;
+}
+
+#navigation ul li a {
+  display: block;
+  text-decoration: none;
+  color: #5330EB;
+  padding: 0 7px 0 7px;
+  margin: 0;
+}
+
+#navigation ul li a:hover,
+#social-media a i:hover {
+  color: #FFFFFF;
+}
+
+#social-media {
+  height: 72px;
+  width: 80px;
+  line-height: 72px;
+  position: absolute;
+  top: 0;
+  right: 20px;
+}
+
+#social-media i {
+  padding: 0 10px 0 10px;
+  color: #5330EB;
+}
+
+.main {
+  color: #191919;
+  font-size: 90px;
+  font-size: 13vmin;
+  font-weight: 900;
+  font-family: 'Raleway', sans-serif;
+  text-shadow: rgba(83, 48, 235, 0.9) 2px 2px;
+  text-align: center;
+  line-height: 60vh;
+  height: 60vh;
+  background-image: url(images/beats.jpg);
+  background-position: center;
+  background-size: cover;
+  box-shadow: inset 0 0 0 1000px rgba(83, 48, 235, 0.6);
+}
+
+.blocks {
+  color: #191919;
+  font-weight: 900;
+  font-family: 'Raleway', sans-serif;
+  font-size: 45px;
+  font-size: 4vw;
+  height: 31vh;
+  text-align: center;
+  line-height: 31vh;
+}
+
+.block {
+  width: 33.33%;
+  background-color: yellow;
+  float: left;
+}
+
+#block1 {
+  background-image: url(images/smoke.jpg);
+  background-position: center;
+  background-size: cover;
+  text-shadow: rgba(23, 168, 213, 0.7) 2px 2px;
+  box-shadow: inset 0 0 0 1000px rgba(41, 159, 255, 0.5);
+}
+
+#block2 {
+  background-image: url(images/concert.jpg);
+  background-position: top;
+  background-size: cover;
+  text-shadow: rgba(255, 128, 60, 0.5) 2px 2px;
+  box-shadow: inset 0 0 0 1000px rgba(254, 141, 81, 0.3);
+}
+
+#block3 {
+  background-image: url(images/writing.jpg);
+  background-position: center;
+  background-size: cover;
+  text-shadow: rgba(255, 245, 255, 0.7) 2px 2px;
+  box-shadow: inset 0 0 0 1000px rgba(245, 232, 255, 0.6);
+}
+
+
+
+
+
+.container {
+  width: 80vw;
+  margin: 35px auto;
+}
+
+.title-left {
+  color: #e17121;
+  font-size: 70px;
+  font-weight: 900;
+  font-family: 'Raleway', sans-serif;
+  margin: 0 0 50px 0;
+  width: 40vw;
+  overflow: hidden;
+  float: left;
+}
+
+div#contact-page {
+  margin-bottom: 20px;
+}
+
+.sub-title {
+  color: #daa076;
+  font-size: 26px;
+  font-weight: 900;
+  font-family: 'Raleway', sans-serif;
+  width: 40vw;
+  margin: 0;
+  overflow: hidden;
+  float: left;
+}
+
+.title-right {
+  float: right;
+  width: 40vw;
+  margin: 0 0 50px 0;
+  /* overflow: hidden; */
+  height: 300px;
+}
+
+.address {
+  font-size: 14px;
+  float: right;
+  border: 3px solid #cddcea;
+  padding: 5px;
+  margin: 15px 10px 0 10px;
+}
+
+button {
+  background-color: transparent;
+  border: 3px solid #e17121;
+  color: #e17121;
+  padding: 12px 29px;
+  cursor: pointer;
+  font-size: 16px;
+  float: right;
+  margin: 15px 10px 0 200px;
+}
+
+button a {
+  color: #e17121;
+  text-decoration: none;
+}
+
+button:hover {
+  background-color: #2b2b2b;
+}
+
+a#contact {
+  color: #cddcea;
+  text-decoration: none;
+}
+
+.resume-heading {
+  margin-top: 30px;
+  color: #e17121;
+  font-size: 26px;
+}
+
+small {
+  /* color: #7480e4; */
+  color: #daa076;
+}
+
+div.container ul {
+  margin-top: 0;
+}
+
+
+
+
+form {
+  padding-top: 20px;
+}
+
+input, textarea {
+  width: 48%;
+  height: 40px;
+  border: 2px solid #e17121;
+  border-radius: 4px;
+  margin: 0 0 20px 0;
+  outline: none;
+  font-size: 22px;
+  font-family: 'Poppins', sans-serif;
+  background-color: #cddcea;
+}
+
+textarea {
+  height: 80px;
+}
+
+input[type=submit] {
+  background-color: #e17121;
+  height: 50px;
+  width: 49%;
+  cursor: pointer;
+}
+
+
+div#music-page {
+  margin-bottom: 40px;
+  color: #e17121;
+}
+
+div#music-page .sub-title {
+  color: #daa076;
+}
+
+iframe {
+  margin: 10px 0 10px 0;
+}
+
+#soundcloud {
+  color: #daa076;
+  text-decoration: none;
+}
+
+.gallery-item {
+  width: 80vw;
+  float: left;
+  margin-bottom: 50px;
+}
+
+.gallery-item .text {
+  width: 40vw;
+  float: left;
+}
+
+.gallery-item img {
+  width: 30vw;
+  height: 208px;
+  float: right;
+  border: 3px solid #5330EB;
+}
+
+.gallery-item img:hover {
+  cursor: pointer;
+  -webkit-filter: brightness(125%);
+}
